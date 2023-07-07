@@ -1,0 +1,143 @@
+*{
+    margin: 0px;
+    font-family: "inter";
+}
+#header{
+    background-color: #303030;
+    height: 300px;
+}
+
+#header h1{
+    color: #FFFFFF;
+    padding-top: 130px;
+    padding-left: 30px;  
+}
+
+#header p {
+    color: #FFFFFF;
+    padding-left: 30px;    
+    margin-top: 20px;
+}
+
+#sub-header{
+    background-color: #F9F9F9;
+    height: 150px;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#sub-header{
+    height: 229px;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-header{
+    margin-top: 96px;
+}
+
+.info-header h4{
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.info-header p{
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.container-info{
+    display: flex;
+    justify-content: space-between;
+}
+
+img{
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 400px;
+}
+
+.container-info div{
+    margin-top: 200px;
+    padding-right: 20px;
+    padding-left: 120px;
+    font-size:  20px;
+}
+ 
+.container-info h3{
+    font-size: 30px;
+}
+
+form{
+    background-color: #303030;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form h3{
+    color: #FFFFFF;
+    padding-top: 87px;
+    padding-bottom:  48px;
+
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+form input{
+    width: 508px;
+    height: 72px;
+    background-color: #EAECE5;
+    margin-bottom: 62px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+}
+
+button{
+    background-color: #C07212;
+    color: #EAECE5;
+    width: 286px;
+    height: 74px;
+    border-radius: 10px;
+    border: 0px;
+    margin-bottom: 87px;
+
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #C07212;
+    transform: translateY(-7px);
+    transition: 0.5s;
+    box-shadow: 0px 10px 12px #fff;
+}
